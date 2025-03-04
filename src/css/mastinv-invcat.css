@@ -1,0 +1,17 @@
+.msgDiv {
+    min-height: 50vh;
+    margin-top: 3vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding-top: 22vh;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: rgba(80,80,80,1);
+    
+}
+
+.msgDiv i {
+    filter: drop-shadow(3px 3px 1px rgba(150,150,150,1))
+}

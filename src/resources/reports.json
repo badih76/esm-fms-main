@@ -1,0 +1,49 @@
+[
+    {
+        "Name": "Masters",
+        "Reports": []
+    },
+    {
+        "Name": "Assets",
+        "Reports": []
+    },
+    {
+        "Name": "Financials",
+        "Reports": [
+            {"Report": "Client Statement of Account"}
+        ]
+    },
+    {
+        "Name": "Maintenance",
+        "Reports": [
+            {
+                "Report": "Job Cards List",
+                "Form": "jclForm"
+            },
+            {"Report": "Job Card by Number"},
+            {"Report": "Job Card by Date"},
+            {
+                "Report": "Job Cards Statistics Summary",
+                "Form": "jcssForm"
+            }
+        ]},
+    {
+        "Name": "Customer Care",
+        "Reports": [
+            {"Report": "All Open Tickets"},
+            {
+                "Report": "Tickets Contract-wise",
+                "Form": "tcontForm"
+            },
+            {"Report": "Tickets by Date"},
+            {"Report": "Ticket by Number"},
+            {
+                "Report": "Ticket by Month",
+                "Form": "tbmForm"
+            },
+            {
+                "Report": "Tickets Statistics Summary",
+                "Form": "tssForm"
+            }
+        ]}
+]

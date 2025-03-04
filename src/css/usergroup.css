@@ -1,0 +1,17 @@
+.divPrivilContain {
+    display: flex;
+    flex-direction: column
+}
+
+.divPrivilRow {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.divPrivilItem {
+    flex: 1;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}

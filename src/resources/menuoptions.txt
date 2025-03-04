@@ -1,0 +1,6 @@
+,
+            {
+                "ddItemId": "mnuFinJEntry", 
+                "ddItemTitle": "Journal Entry",
+                "path": "/finjentry"
+            }

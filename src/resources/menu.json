@@ -1,0 +1,162 @@
+[
+    {
+        "menuOptionId": "mnuDashaboard",
+        "menuOptionTitle": "Dashboard",
+        "menuDropdown": [],
+        "path": "/dashboard",
+        "privil": "Dashboard"
+    },
+    {
+        "menuOptionId": "mnuMasters",
+        "menuOptionTitle": "Masters",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuMastCustCare", 
+                "ddItemTitle": "Customer Care Master",
+                "path": "/mastcustcare",
+                "privil": "MastHDD"
+            },
+            {
+                "ddItemId": "mnuMastInvetory", 
+                "ddItemTitle": "Inventory Master",
+                "path": "/mastinvdepend",
+                "privil": "MastInvD"
+            },
+            {
+                "ddItemId": "mnuMastUsersAdmin", 
+                "ddItemTitle": "Users Administration",
+                "path": "/mastusersadmin",
+                "privil": "MastUAdmin"
+            },
+            {
+                "ddItemId": "mnuMastClientUsersAdmin", 
+                "ddItemTitle": "Client Users Administration",
+                "path": "/mastclientusersadmin",
+                "privil": "MastCUAdmin"
+            },
+            {
+                "ddItemId": "mnuMastProjServDef",
+                "ddItemTitle": "Services Definitions",
+                "path": "/projservdef",
+                "privil": "MastSProf"
+            }
+        ],
+        "path": "",
+        "privil": "Masters"
+    },
+    {
+        "menuOptionId": "mnuInventory",
+        "menuOptionTitle": "Assets",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuInvClientsAssets", 
+                "ddItemTitle": "Clients and Assets",
+                "path": "/invclientsassets",
+                "privil": "AssetsClients"
+            },
+            {
+                "ddItemId": "mnuProjContDef", 
+                "ddItemTitle": "Contract Definition",
+                "path": "/projcontdef",
+                "privil": "AssetsContracts"
+            }
+        ],
+        "path": "",
+        "isToggleOn": false,
+        "privil": "Assets"
+
+    },
+    {
+        "menuOptionId": "mnuFinance",
+        "menuOptionTitle": "Financials",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuFinSOA", 
+                "ddItemTitle": "Clients Statements of Accounts",
+                "path": "/fincsoa",
+                "privil": "FinClientSOA"
+            }
+        ],
+        "path": "",
+        "isToggleOn": false,
+        "privil": "Financials"
+
+    },
+    {
+        "menuOptionId": "mnuMaintenance",
+        "menuOptionTitle": "Maintenance",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuMainJobPlanner", 
+                "ddItemTitle": "Job Planner",
+                "path": "/mainjobplanner",
+                "privil": "MaintenanceJP"
+            },
+            {
+                "ddItemId": "mnuMainJobCards", 
+                "ddItemTitle": "Job Cards",
+                "path": "/mainjobcards",
+                "privil": "MaintenanceJC"
+            },
+            {
+                "ddItemId": "mnuMainPoolReadings", 
+                "ddItemTitle": "Pool Readings",
+                "path": "/mainpoolreadings",
+                "privil": "MaintenanceJC"
+            }
+        ],
+        "path": "",
+        "isToggleOn": false,
+        "privil": "Maintenance"
+
+    },
+    {
+        "menuOptionId": "mnuCustomerCare",
+        "menuOptionTitle": "Customer Care",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuCCareTickets", 
+                "ddItemTitle": "Tickets",
+                "path": "/ccaretickets",
+                "privil": "CustCareTkt"
+            }
+        ],
+        "path": "",
+        "isToggleOn": false,
+        "privil": "CustCare"
+
+    },
+    {
+        "menuOptionId": "mnuReports",
+        "menuOptionTitle": "Reports",
+        "menuDropdown": [],
+        "path": "/reports",
+        "isToggleOn": false,
+        "privil": "Reports"
+
+    },
+    {
+        "menuOptionId": "mnuCRM",
+        "menuOptionTitle": "Website CRM",
+        "menuDropdown": [
+            {
+                "ddItemId": "mnuCRMUploadAttach", 
+                "ddItemTitle": "Upload Attachments",
+                "path": "/crmuploadattach",
+                "privil": "CRMUploadAttach"
+            }
+        ],
+        "path": "",
+        "isToggleOn": false,
+        "privil": "CustCare"
+
+    },
+    {
+        "menuOptionId": "mnuSignout",
+        "menuOptionTitle": "Sign-out",
+        "menuDropdown": [],
+        "path": "/",
+        "isToggleOn": false,
+        "privil": "All"
+    }
+]

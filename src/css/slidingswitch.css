@@ -1,0 +1,97 @@
+.circle {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: radial-gradient(gray, lightgray, white, gray, lightgray, white, gray, lightgray, white, gray, lightgray, white, gray, lightgray, white, gray, lightgray, white, gray, lightgray, white );
+    border: solid 1px darkgray;
+    transition: transform 1s, background 1s linear;
+
+  }
+  
+  .circle2 {
+    position: relative;
+    top: -6px;
+    left: 10px;
+    height: 13px;
+    width: 13px;
+    border-radius: 15px;
+    background: radial-gradient(lightgray, gray 60%, lightgray);
+    border: solid 1px darkgray;
+    transition: transform 1s, background 1s linear;
+
+  }
+  
+  .switch {
+    height: 22px;
+    width: 42px;
+    border-radius: 25px;
+    /* background: radial-gradient(rgba(100, 255, 100, 1) 10%, lightgray); */
+    background: radial-gradient(white 10%, lightgray);
+    border: solid 1px gray;
+    transition: transform 1s, background 1s linear;
+    
+  }
+  
+  .switch2 {
+    height: 2px;
+    width: 60px;
+    border-radius: 50%;
+    background: radial-gradient(gray 10%, white);
+    /* border: solid 1px gray; */
+    transition: transform 1s, background 1s linear;
+
+  }
+  
+  /* .switch:hover .circle {
+      transform: translate(100%, 0);
+  } */
+  
+  .switchOn {
+       transform: translate(90%, 0);
+       transition: transform 1s, background 1s linear;
+  }
+  
+  .switchOnGrad {
+    /* background: radial-gradient(rgba(255, 100, 100, 1) 10%, gray); */
+    background: radial-gradient(rgba(70, 100, 255, 1) 10%, white);
+    transition: transform 1s, background 1s linear;
+
+  }
+  
+  .switch2On {
+       transform: translate(175%, 0);
+       background: radial-gradient(lightblue, blue 60%, lightgray);
+       transition: transform 1s, background 1s linear;
+  }
+  
+  .switch2OnGrad {
+    background: radial-gradient(blue 10%, white);
+    transition: transform 1s, background 1s;
+
+  }
+
+  .slidingSwitchContainer
+  {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .slidingSwitchLabel {
+    flex: 6;
+    text-align: left;
+    color: blue
+  }
+
+  .slidingSwitch {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+
+  .slidingSwitchError {
+      width: 100%;
+      text-emphasis: left;
+  }

@@ -1,0 +1,15 @@
+.inputLabel {
+    font-size: 1vw;
+    
+}
+
+.textareaLabel {
+    font-size: 1vw;
+}
+
+.fieldContainer {
+    text-align: left;
+    color: blue;
+    padding-left: 15px;
+    padding-right: 15px; 
+}

@@ -1,0 +1,35 @@
+.myNavItem {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: gray;
+}
+
+.myNavItem:hover {
+  color: black;
+}
+
+.myNavButton {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 0;
+  width: 100%;
+  /* background: tan; */
+  /* border: solid 1px red; */
+}
+
+.myNavButton:hover {
+  /* background: lightgray; */
+  color: black;
+}
+
+.myNavInnerButton {
+  border: none;
+  background: none;
+  width: 100%;
+  color: gray;
+}
+
+.myNavInnerButton:hover {
+  color: black;
+}

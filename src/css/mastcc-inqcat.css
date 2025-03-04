@@ -1,0 +1,63 @@
+.lookupbar {
+    display: grid;
+    grid-template-columns: 9.5fr 0.5fr;
+    margin-top: 2px;
+}
+
+.leftCol {
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: thin;
+    border-color: lightgray;
+    min-height: 70vh
+}
+
+.middleCol {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    min-height: 70vh
+}
+
+.rightCol {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 70vh
+}
+
+.leftColEx {
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: thin;
+    border-color: lightgray;
+    min-height: 100vh
+}
+
+.middleColEx {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    min-height: 100vh
+}
+
+.rightColEx {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 100vh
+}
+
+.btnToobar {
+    width: 100%; 
+    padding-bottom: 5px; 
+    margin-bottom: 5px; 
+    border-bottom: solid thin; 
+    border-bottom-color: gainsboro
+}
